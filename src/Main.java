@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1 () {
@@ -72,5 +73,14 @@ public class Main {
         System.out.println("общий вес бойцов = " + totalWeight + " кг");
 
     }
+    public static void task7 () {
+        System.out.println("Задача 7:");
+        var weightFirstFighter = 78.2;
+        var weightSecondFighter = 82.7;
+        var differenceWeight1 = weightSecondFighter-weightFirstFighter;
+        System.out.println("разница весов бойцов = " + differenceWeight1 + " кг");
+        var differenceWeight2 = weightSecondFighter % weightFirstFighter;
+        System.out.println("разница весов бойцов = " + differenceWeight2 + " кг");
 
+    }
 }
